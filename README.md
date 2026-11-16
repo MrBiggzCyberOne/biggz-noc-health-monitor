@@ -5,6 +5,8 @@ available RAM, and free space and usage on the root filesystem. It flags root
 disk usage at 80% or higher and appends each check to `system_health.log`
 in the script directory.
 
+A NOC can use this monitor to spot rising disk usage before it disrupts services and review the log when troubleshooting.
+
 ## Prerequisites
 
 Ubuntu Linux or Ubuntu under WSL, Bash, and the standard `date`, `free`,
